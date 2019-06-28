@@ -11,9 +11,9 @@ public class Food {
     颜色
             口感*/
 
-    String fname;
-    double price;
-    char wd;
+    public String fname;
+    public double price;
+    public char wd;
 
 
    //行为

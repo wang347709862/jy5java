@@ -10,9 +10,36 @@ public class CanJu {
             种类
     功用*/
 
-    String cName;
-    String caiZhi;
-    String gy;
+    private String cName;
+    private String caiZhi;
+    private String gy;
+
+    //
+
+
+    public String getcName() {
+        return cName;
+    }
+
+    public void setcName(String cName) {
+        this.cName = cName;
+    }
+
+    public String getCaiZhi() {
+        return caiZhi;
+    }
+
+    public void setCaiZhi(String caiZhi) {
+        this.caiZhi = caiZhi;
+    }
+
+    public String getGy() {
+        return gy;
+    }
+
+    public void setGy(String gy) {
+        this.gy = gy;
+    }
 
     public CanJu() {
     }
@@ -22,4 +49,5 @@ public class CanJu {
         this.cName = cName;
         this.gy = gy;
     }
+
 }

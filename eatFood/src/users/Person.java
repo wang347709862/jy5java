@@ -25,8 +25,12 @@ public class Person {
     }
 
     public void play() {
+        System.out.println("玩游戏");
     }
 
     public void sleep() {
+        System.out.println("睡觉");
     }
+
+
 }

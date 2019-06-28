@@ -7,8 +7,25 @@ public class ZuoWei {
     形状*/
 
 
-   String caiZhi;
-   String color;
+   private String caiZhi;
+   private String color;
+
+   //
+   public String getCaiZhi() {
+      return caiZhi;
+   }
+
+   public void setCaiZhi(String caiZhi) {
+      this.caiZhi = caiZhi;
+   }
+
+   public String getColor() {
+      return color;
+   }
+
+   public void setColor(String color) {
+      this.color = color;
+   }
 
    public ZuoWei(){}
    public ZuoWei(String caiZhi,String color){
